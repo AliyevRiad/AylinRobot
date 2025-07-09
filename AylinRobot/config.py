@@ -28,6 +28,6 @@ class Config:
    ALIVE_NAME = os.environ.get("ALIVE_NAME", "Miro")
    CHANNEL = os.environ.get("CHANNEL", "MiroBotlar")
    SUPPORT = os.environ.get("SUPPORT", "MiroBotlar")
-   ALIVE_IMG = os.environ.get("ALIVE_IMG", "https://telegra.ph/file/f6c186e3c581a223856c4.mp4") 
-   START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/b2c2ed59a89933a384ae3.jpg")
+   ALIVE_IMG = os.environ.get("ALIVE_IMG", "https://files.catbox.moe/0s1wpb.jpg") 
+   START_IMG = os.environ.get("START_IMG", "https://files.catbox.moe/eahk6i.jpg")
    COMMAND_PREFIXES = list(os.environ.get("COMMAND_PREFIXES", "/ ! .").split())
