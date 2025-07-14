@@ -13,9 +13,9 @@ class Config:
 
    API_ID = int(os.getenv("API_ID", "27804609"))
    API_HASH = os.getenv("API_HASH", "e27685923fc24e08591caff39e764bbd")
-   BOT_TOKEN = os.getenv("BOT_TOKEN", "8003247220:AAH1X-msrm6zY7lczLgis3iZz9j3t1Cv3cA")
-   BOT_USERNAME = os.environ.get("BOT_USERNAME", "SevincRobot")
-   BOT_NAME = os.environ.get("BOT_NAME", "Sevinc 🌹")   
+   BOT_TOKEN = os.getenv("BOT_TOKEN", "7539501739:AAHhwIlR87EkMlC5h3D_wVN01Y8Uz3D5Aro")
+   BOT_USERNAME = os.environ.get("BOT_USERNAME", "Ahaahaah7bot")
+   BOT_NAME = os.environ.get("BOT_NAME", "Ahahha")   
    OWNER_ID = int(os.environ.get("OWNER_ID","7926847490"))
    OWNER_NAME = os.environ.get("OWNER_NAME", "X7Miro") 
    GONDERME_TURU = bool(os.environ.get("GONDERME_TURU", "False"))
